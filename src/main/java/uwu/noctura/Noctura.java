@@ -38,7 +38,7 @@ public enum Noctura implements MinecraftInstance {
     INSTANCE;
 
     public UserConnection userConnection;
-    public String name = "Noctura", version = "1.4 (New Name Edition)";
+    public String name = "Noctura", version = "(Amilie Fork)";
     public Path clientDirectory = Paths.get(mc.mcDataDir.getAbsolutePath(), name), configsDirectory = Paths.get(clientDirectory.toFile().getAbsolutePath(), "configs");
     public ModuleManager moduleManager;
     public FontManager fontManager;
@@ -86,7 +86,7 @@ public enum Noctura implements MinecraftInstance {
         altManager = new AltManager();
         altManager.loadAlts();
         capeManager = new CapeManager();
-        Display.setTitle("Noctura [1.8.8] V" + version);
+        Display.setTitle("Noctura " + version);
         moduleManager.getModule(HUD.class).toggle();
         moduleManager.getModule(ArrayList.class).toggle();
         moduleManager.getModule(Noslow.class).toggle();
@@ -119,14 +119,9 @@ public enum Noctura implements MinecraftInstance {
 
     public java.util.ArrayList<Changelog> getLogs(){
         java.util.ArrayList<Changelog> list = new java.util.ArrayList<>();
-        list.add(new Changelog("1.3", Changelog.Type.TITLE));
-        list.add(new Changelog("Fixed killaura", Changelog.Type.ADDED));
-        list.add(new Changelog("Renamed to Noctura", Changelog.Type.ADDED));
-        list.add(new Changelog("Hypixel Ground Strafe", Changelog.Type.ADDED));
-        list.add(new Changelog("Hypixel Velocity", Changelog.Type.ADDED));
-        list.add(new Changelog("Telly Scaffold", Changelog.Type.ADDED));
-        list.add(new Changelog("Reworked Name Randomness", Changelog.Type.EDITED));
-        list.add(new Changelog("Changed Main menu", Changelog.Type.ADDED));
+        list.add(new Changelog("Amilie Fork 1.0", Changelog.Type.TITLE));
+        list.add(new Changelog("Modified Main Menu", Changelog.Type.EDITED));
+        list.add(new Changelog("Added New Git Fork", Changelog.Type.ADDED));
         return list;
     }
 

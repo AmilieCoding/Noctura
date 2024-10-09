@@ -279,8 +279,6 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
         this.buttonList.add(new GuiButton(1, this.width / 2 - 100, p_73969_1_, I18n.format("menu.singleplayer", new Object[0])));
         this.buttonList.add(new GuiButton(2, this.width / 2 - 100, p_73969_1_ + p_73969_2_ * 1, I18n.format("menu.multiplayer", new Object[0])));
         this.buttonList.add(new GuiButton(3, this.width / 2 - 100, p_73969_1_ + p_73969_2_ * 2, "Alt Manager"));
-        this.buttonList.add(new GuiButton(40, 4, 4, 100, 20, "Github"));
-        this.buttonList.add(new GuiButton(41, 108, 4, 100, 20, "Youtube"));
     }
 
     /**
@@ -671,7 +669,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
         GlStateManager.popMatrix();
         String s = "Minecraft 1.8.8";
         //this.drawString(this.fontRendererObj, s, 2, this.height - 10, -1);
-        getFont("Good", 18).drawString("Made with <3 by Flaily", width - getFont("Good", 18).getWidth("Made with <3 by Flaily") - 2,
+        getFont("Good", 18).drawString("Fork of Noctura by Amilie :)", width - getFont("Good", 18).getWidth("Fork of Noctura by Amilie :)") - 2,
                 height - 2 - getFont("Good", 18).getHeight("A"), -1);
 
         if (this.openGLWarning1 != null && this.openGLWarning1.length() > 0)
