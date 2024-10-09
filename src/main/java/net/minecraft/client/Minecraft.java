@@ -183,12 +183,11 @@ import uwu.noctura.event.impl.EventFrame;
 import uwu.noctura.event.impl.EventTick;
 import uwu.noctura.module.Module;
 import uwu.noctura.module.ModuleManager;
-import uwu.noctura.module.impl.ghost.FastPlace;
-import uwu.noctura.module.impl.ghost.NoClickDelay;
+import uwu.noctura.module.impl.other.FastPlace;
+import uwu.noctura.module.impl.combat.NoClickDelay;
 import uwu.noctura.ui.packet.PacketTweaker;
 import uwu.noctura.utils.DiscordPresenceUtil;
 import uwu.noctura.utils.PacketUtil;
-import uwu.noctura.utils.Wrapper;
 import uwu.noctura.utils.config.KeyLoader;
 
 public class Minecraft implements IThreadListener, IPlayerUsage

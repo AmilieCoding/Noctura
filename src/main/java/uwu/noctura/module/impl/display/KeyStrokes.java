@@ -9,7 +9,7 @@ import uwu.noctura.module.Category;
 import uwu.noctura.module.Module;
 import uwu.noctura.module.ModuleInfo;
 import uwu.noctura.module.impl.display.keystrokes.Keystroke;
-import uwu.noctura.module.impl.ghost.AutoClicker;
+import uwu.noctura.module.impl.combat.AutoClicker;
 import uwu.noctura.module.setting.impl.GraphSetting;
 import uwu.noctura.module.setting.impl.NumberSetting;
 

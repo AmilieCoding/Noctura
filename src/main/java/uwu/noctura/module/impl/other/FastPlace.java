@@ -1,4 +1,4 @@
-package uwu.noctura.module.impl.ghost;
+package uwu.noctura.module.impl.other;
 
 import org.lwjgl.input.Mouse;
 import uwu.noctura.event.Event;

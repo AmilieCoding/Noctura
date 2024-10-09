@@ -1,4 +1,4 @@
-package uwu.noctura.module.impl.ghost;
+package uwu.noctura.module.impl.combat;
 
 import uwu.noctura.event.Event;
 import uwu.noctura.event.impl.EventUpdate;

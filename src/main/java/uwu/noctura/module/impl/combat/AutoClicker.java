@@ -1,4 +1,4 @@
-package uwu.noctura.module.impl.ghost;
+package uwu.noctura.module.impl.combat;
 
 import lombok.SneakyThrows;
 import net.minecraft.block.material.Material;

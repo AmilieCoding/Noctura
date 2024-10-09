@@ -73,7 +73,7 @@ import org.lwjgl.util.glu.Project;
 import uwu.noctura.Noctura;
 import uwu.noctura.event.impl.EventRender3D;
 import uwu.noctura.module.impl.falses.Zoom;
-import uwu.noctura.module.impl.ghost.Reach;
+import uwu.noctura.module.impl.combat.Reach;
 import uwu.noctura.module.impl.visuals.BlockOutline;
 import uwu.noctura.module.impl.visuals.Freelook;
 

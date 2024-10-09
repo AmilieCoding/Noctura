@@ -51,7 +51,7 @@ import org.lwjgl.input.Mouse;
 import uwu.noctura.Noctura;
 import uwu.noctura.event.impl.EventStrafe;
 import uwu.noctura.module.impl.exploit.NoPitchLimit;
-import uwu.noctura.module.impl.ghost.Safewalk;
+import uwu.noctura.module.impl.movement.Safewalk;
 
 public abstract class Entity implements ICommandSender
 {

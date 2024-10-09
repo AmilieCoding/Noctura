@@ -1,4 +1,4 @@
-package uwu.noctura.module.impl.ghost;
+package uwu.noctura.module.impl.combat;
 
 import uwu.noctura.module.Category;
 import uwu.noctura.module.Module;

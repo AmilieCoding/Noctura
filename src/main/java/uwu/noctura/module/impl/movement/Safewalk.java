@@ -1,4 +1,4 @@
-package uwu.noctura.module.impl.ghost;
+package uwu.noctura.module.impl.movement;
 
 import net.minecraft.entity.Entity;
 import org.lwjgl.input.Mouse;

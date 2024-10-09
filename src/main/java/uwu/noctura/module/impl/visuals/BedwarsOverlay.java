@@ -1,4 +1,4 @@
-package uwu.noctura.module.impl.ghost;
+package uwu.noctura.module.impl.visuals;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockBed;

@@ -1,4 +1,4 @@
-package uwu.noctura.module.impl.ghost;
+package uwu.noctura.module.impl.combat;
 
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.entity.Entity;

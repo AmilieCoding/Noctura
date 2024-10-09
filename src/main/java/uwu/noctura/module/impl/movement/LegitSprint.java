@@ -1,4 +1,4 @@
-package uwu.noctura.module.impl.ghost;
+package uwu.noctura.module.impl.movement;
 
 import org.lwjgl.input.Keyboard;
 import uwu.noctura.event.Event;

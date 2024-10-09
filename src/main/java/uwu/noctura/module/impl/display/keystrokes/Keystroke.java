@@ -6,7 +6,7 @@ import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.settings.KeyBinding;
 import org.lwjgl.input.Keyboard;
 import uwu.noctura.Noctura;
-import uwu.noctura.module.impl.ghost.AutoClicker;
+import uwu.noctura.module.impl.combat.AutoClicker;
 import uwu.noctura.utils.MathHelper;
 
 import java.awt.*;
