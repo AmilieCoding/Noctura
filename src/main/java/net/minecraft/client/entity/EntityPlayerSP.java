@@ -200,7 +200,7 @@ public class EntityPlayerSP extends AbstractClientPlayer
             }
             // Ghost mode
             boolean ghostJustToggled = false;
-            if (Noctura.INSTANCE.isGhost()) {
+            if (Noctura.INSTANCE()) {
                 long tgMs = Noctura.INSTANCE.getCommandManager().getCommand(CommandGhost.class).getToggledMs();
                 if (System.currentTimeMillis() - tgMs < 20) {
                     Wrapper.instance.log(EnumChatFormatting.GREEN +  "Disabled" + EnumChatFormatting.GRAY + " all " +
