@@ -208,7 +208,7 @@ public class EntityPlayerSP extends AbstractClientPlayer
                     ghostJustToggled = true;
                 }
                 for (Category c : Category.values()) {
-                    if (!(c.equals(Category.Ghost) || c.equals(Category.Visuals)  || c.equals(Category.False) || c.equals(Category.Display))) {
+                    if (!(c.equals(Category.Ghost) || c.equals(Category.Visuals)  || c.equals(Category.False) || c.equals(Category.Display) || c.equals(Category.Ghost)) {
                         for (Module m : Noctura.INSTANCE.getModuleManager().getModules(c)) {
                             if (m.isToggled()) {
                                 if (!ghostJustToggled) {
